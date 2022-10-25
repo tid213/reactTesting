@@ -4,25 +4,14 @@ function NutrientForm() {
     return (
         <form class="form">
           <label>
-            PreMix water PPM:
-            <input type="text" name="prePPM" />
+            Add Nutrient totals for all:
           </label>
-          <label>
-            Micro:
-            <input type="text" name="micro" />
-          </label>
-          <label>
-            Grow:
-            <input type="text" name="grow" />
-          </label>
-          <label>
-            Flower:
-            <input type="text" name="flower" />
-          </label>
-          <label>
-            CalMag:
-            <input type="text" name="calmag" />
-          </label>
+          <input type="text" name="prePPM" placeholder='Water PPM before nutes' />
+          <input type="text" name="micro" placeholder='Flora Micro 1/2 tsp' />
+          <input type="text" name="grow" placeholder='Flora Grow 1/2 tsp' />
+          <input type="text" name="flower" placeholder='Flora Flower 1/2 tsp' />
+          <input type="text" name="calmag" placeholder='Cal Mag 1/2 tsp' />
+          <input type="text" name="ppmTotal" placeholder='Water PPM after nutes' />
           <input type="submit" value="Add Note" />
         </form>
     );
